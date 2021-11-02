@@ -4,7 +4,7 @@
   --secondary-color: #454056;
   --sections-margin: 60px;
   --box-shadow:  0 0.25rem 0.25rem 0.125rem rgb(253 86 49 / 10%),
-  0 0.375rem 0.75rem 0.875rem rgb(253 86 49 / 40%);
+  0 0.375rem .75rem 0.875rem rgb(253 86 49 / 40%);
   --transition:all 0.5s;
 }
 ul li{
@@ -376,4 +376,91 @@ color: #fff!important;
 .card ul{
   padding: 0;
 }
+.card{
+  position: relative;
+}
+.stay .fa-heart{
+  position: absolute;
+  right: 5%;
+  top: 3%;
+  color: var(--main-color);
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 50%;
+}
+.stay .fa-heart:hover{
+  background-color: var(--main-color);
+  color: #fff;
+}
 /*end stay*/
+/*start eat*/
+.eat{
+  margin: 60px 0;
+}
+.eat .container h2:first-of-type{
+  letter-spacing: 2px;
+  align-items: center;
+}
+.eat .sections{
+  margin-top: 30px;
+}
+.eat .sections .col-md-4{
+  margin-bottom: 100px;
+}
+
+.eat .sections .col-md-4:nth-of-type(2){
+  margin-bottom: 0;
+}
+.sections span{
+  color: var(--main-color);
+}
+.fa-phone-alt{
+  color: var(--main-color);
+  margin-right: 15px;
+}
+.sections p{
+  margin: 20px 0;
+  color: rgb(102, 98, 118) !important;
+  font-size: 20px;
+  font-weight: 500;
+}
+.sections img{
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+}
+.eat .seperate{
+  margin-top: 20px;
+  cursor: pointer;
+  transition: all 0.5s  ;
+}
+.eat .seperate a{
+  color: rgba(0,0,0,.55)!important  ;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+}
+.eat .seperate a:hover{
+  color:var(--main-color)!important ;
+}
+.eat .seperate ul{
+  padding-left: 0;
+  line-height: 1.8;
+
+}
+.seperate img{
+  width: 100%;
+}
+.seperate:hover{
+  background-color: #fff;
+  box-shadow: var(--box-shadow);
+  border-radius: 10px;
+}
+@media(max-width:425px)
+{
+  
+  .sections .col-md-4 .seperate h3{
+         margin-top: 20px;
+  }
+}
+/*end eat*/
