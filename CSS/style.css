@@ -25,6 +25,14 @@ ul li{
 hr {
   margin: 0;
 }
+::-webkit-scrollbar{
+  background-color: #ddd!important;
+  width: 10px;
+}
+::-webkit-scrollbar-thumb{
+  background-color: var(--main-color);
+  border-radius: 10px;
+}
 /*start navbar*/
 .navbar {
   background-color: #fff !important;
